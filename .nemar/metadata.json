@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005241",
+  "source": "openneuro",
+  "source_id": "ds005241",
+  "title": "NeuroMorph: A High-Temporal Resolution MEG Dataset for Morpheme-Based Linguistic Analysis",
+  "authors": {
+    "Amilleah Rodriguez": {},
+    "Dan Zhao": {},
+    "Kyra Wilson": {},
+    "Ritika Saboo": {},
+    "Sergey V Samsonau": {},
+    "Alec Marantz": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005241.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "New York University Abu Dhabi Institute Grant G1001"
+    }
+  ]
+}

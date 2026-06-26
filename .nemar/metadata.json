@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NeuroMorph: A High-Temporal Resolution MEG Dataset for Morpheme-Based Linguistic Analysis",
+  "description": "NeuroMorph is a high-temporal resolution magnetoencephalography (MEG) dataset comprising recordings from 24 subjects totaling over 17 hours of data acquired using a KIT/Yokogawa system with 208 magnetometer channels. The dataset is designed to support morpheme-based linguistic analysis and investigation of language and cognitive processes through visual presentation paradigms, providing a resource for studying neural mechanisms of language processing at fine temporal resolution.",
+  "methods_description": "Data were acquired using a KIT/Yokogawa MEG system with 208 magnetometer channels. The study employed a visual presentation paradigm to investigate language and cognitive processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,32 @@
     "Sergey V Samsonau": {},
     "Alec Marantz": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005241.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "morpheme"
+    },
+    {
+      "term": "linguistic analysis"
+    },
+    {
+      "term": "temporal resolution"
+    },
+    {
+      "term": "cognitive processes"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005241",
       "identifier_type": "URL",
@@ -37,6 +59,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005241.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,57 +73,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "150.8 GB (118 files)"
   ],
   "formats": [
     ".fif",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "NeuroMorph is a high-temporal resolution magnetoencephalography (MEG) dataset comprising recordings from 24 subjects totaling over 17 hours of data acquired using a KIT/Yokogawa system with 208 magnetometer channels. The dataset is designed to support morpheme-based linguistic analysis and investigation of language and cognitive processes through a visual presentation paradigm. Subjects were presented with visual stimuli to investigate morphological processing and related cognitive mechanisms.",
-  "methods_description": "Data were collected using a KIT/Yokogawa MEG system with 208 magnetometer channels. The study employed a visual presentation paradigm to investigate language and cognitive processes, specifically targeting morpheme-based linguistic analysis. Subjects viewed visual stimuli while MEG activity was recorded. The dataset includes raw MEG recordings with associated metadata and stimulus information.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "language processing"
-    },
-    {
-      "term": "linguistic processing"
-    },
-    {
-      "term": "morpheme"
-    },
-    {
-      "term": "morphology"
-    },
-    {
-      "term": "word formation"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "visual presentation"
-    },
-    {
-      "term": "visual stimuli"
-    }
-  ],
-  "source_hash": "36547673c8a29a4813c3c2814793075387364a098d1bd81bbd133115bc3a696b"
+  "source_hash": "5e9f4586e55a6b2186e117f65f02053277345256c7f629a117f8842d073febc1"
 }

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NeuroMorph: A High-Temporal Resolution MEG Dataset for Morpheme-Based Linguistic Analysis",
-  "description": "NeuroMorph is a high-temporal resolution magnetoencephalography (MEG) dataset comprising recordings from 24 subjects totaling over 17 hours of data acquired using a KIT/Yokogawa system with 208 magnetometer channels. The dataset is designed to support morpheme-based linguistic analysis and investigation of language and cognitive processes through visual presentation paradigms, providing a resource for studying neural mechanisms of language processing at fine temporal resolution.",
-  "methods_description": "Data were acquired using a KIT/Yokogawa MEG system with 208 magnetometer channels. The study employed a visual presentation paradigm to investigate language and cognitive processes.",
+  "description": "NeuroMorph is a high-temporal resolution MEG dataset designed for morpheme-based linguistic analysis, comprising recordings from 24 subjects totaling over 17 hours of data. Data were collected using a KIT/Yokogawa MEG system to investigate visual language and cognitive processing, with a focus on morphological structure in written language comprehension.",
+  "methods_description": "Data were collected using a KIT/Yokogawa MEG system with 208 magnetometer channels from 24 subjects, involving visual presentation paradigms for investigating language and cognitive processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,29 +24,21 @@
       "term": "MEG"
     },
     {
+      "term": "morphology"
+    },
+    {
+      "term": "psycholinguistics"
+    },
+    {
       "term": "language processing"
     },
     {
-      "term": "morpheme"
-    },
-    {
-      "term": "linguistic analysis"
-    },
-    {
-      "term": "temporal resolution"
-    },
-    {
-      "term": "cognitive processes"
+      "term": "visual word recognition"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005241",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005241",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -64,6 +56,11 @@
       "identifier": "10.18112/openneuro.ds005241.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005241",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [

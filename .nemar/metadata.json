@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NeuroMorph: A High-Temporal Resolution MEG Dataset for Morpheme-Based Linguistic Analysis",
-  "description": "NeuroMorph is a high-temporal resolution MEG dataset designed for morpheme-based linguistic analysis, comprising recordings from 24 subjects totaling over 17 hours of data. Data were collected using a KIT/Yokogawa MEG system to investigate visual language and cognitive processing, with a focus on morphological structure in written language comprehension.",
-  "methods_description": "Data were collected using a KIT/Yokogawa MEG system with 208 magnetometer channels from 24 subjects, involving visual presentation paradigms for investigating language and cognitive processes.",
+  "description": "NeuroMorph is a magnetoencephalography (MEG) dataset with high temporal resolution, designed for morpheme-based linguistic analysis. It contains recordings from 24 participants, totaling over 17 hours of data, acquired with a 208-channel KIT/Yokogawa magnetometer system. The dataset supports research on the neural processing of morphology during language comprehension.",
+  "methods_description": "Data were recorded with a KIT/Yokogawa MEG system with 208 magnetometer channels from 24 subjects, with visual presentation of linguistic stimuli. Supplementary code is available on GitHub.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,24 +16,24 @@
   },
   "keywords": [
     {
+      "term": "MEG"
+    },
+    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "MEG"
-    },
-    {
       "term": "morphology"
-    },
-    {
-      "term": "psycholinguistics"
     },
     {
       "term": "language processing"
     },
     {
-      "term": "visual word recognition"
+      "term": "psycholinguistics"
+    },
+    {
+      "term": "visual word presentation"
     }
   ],
   "related_identifiers": [
@@ -75,7 +75,7 @@
     "meg"
   ],
   "sizes": [
-    "150.8 GB (118 files)"
+    "140 GB (118 files)"
   ],
   "formats": [
     ".fif",
